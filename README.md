@@ -18,8 +18,5 @@
   </a>
 </p>
 
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp
-
-
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:18597d,100:6fbdbb&height=150&section=footer)
