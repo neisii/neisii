@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=300&section=header&text=NEISII's%20Github&fontSize=40)
+![header](https://capsule-render.vercel.app/api?type=shark&color=0:18597d,100:6fbdbb&fontColor=ffffff&height=230&rotate=8&section=header&text=NEISII's%20Github&fontSize=48)
 
 <p align="center">
   <h3 align="center">📌✨Please call me NEISII</h3>
@@ -18,5 +18,8 @@
   </a>
 </p>
 
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>&nbsp
 
-![footer](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=150&section=footer)
+
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:18597d,100:6fbdbb&height=150&section=footer)
