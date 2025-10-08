@@ -2,7 +2,7 @@
 
 <p align="center">
   <h3 align="center">📌✨Please call me NEISII</h3>
-  <h4 align="center">aka. Super cute cat Goreang-i</h4>
+  <h4 align="center">Or Go-Reang(Pronounce like go-lang)</h4>
 </p>
 
 <h3 align="center">💡 My Most Used Languages 💡</h3>
