@@ -10,14 +10,21 @@
 ⌨️ 40% Ortholinear Keyboard Planck ×2 → 가능하면 키보드로 다 해결하는 타입 (a.k.a 게으른 개발자)  
 🐶🐱 Love cats & dogs / 고양이도 강아지도 다 좋아합니다  
 💻 Current gear: MacBook Pro M3 Pro 14"  
+🌍 **Interested in:** 지도(Geo), 물류(Logistics), 교통(Transportation)  
+🤖 **Future goal:** AI + 물류 통합을 통한 최적 경로 및 경로 추적 시스템 개발 / Building AI-powered logistics for route optimization and tracking  
 
 ---
 
 ## 🚀 Featured Projects  
 
+- [**gobucket**](https://github.com/neisii/gobucket)  
+  _AI가 장기 목표(버킷리스트)를 실행 가능한 단계로 분해하고, 지도 기반으로 일일 동선을 최적화해 실제 달성을 돕는 프로젝트 / AI-driven assistant that breaks down long-term goals into actionable steps and optimizes daily routes based on maps_  
+  - AI-DLC 개발방법론 적용  
+  - Flutter App  
+  > 가장 열심히 파고 있는 현재형 프로젝트 / My current main focus 🏃‍♀️  
+
 - [**toy-5**](https://github.com/neisii/toy-5)  
   _AI-DLC 개발방법론 + Playwright 자동화를 지향하는 토이 프로젝트 / Toy project exploring AI-DLC methodology and Playwright-driven automation_  
-  > 가장 열심히 파고 있는 현재형 프로젝트 / My current main focus 🏃‍♀️  
 
 - [**Noisense**](https://github.com/neisii/noisense)  
   _서울 소음 시각화 프로젝트 (2025) / Seoul noise-map visualization_  
