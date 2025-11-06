@@ -17,14 +17,20 @@
 
 ## 🚀 Featured Projects  
 
-- [**gobucket**](https://github.com/neisii/gobucket)  
+- [**gobucket**](https://github.com/neisii)  
   _AI가 장기 목표(버킷리스트)를 실행 가능한 단계로 분해하고, 지도 기반으로 일일 동선을 최적화해 실제 달성을 돕는 프로젝트 / AI-driven assistant that breaks down long-term goals into actionable steps and optimizes daily routes based on maps_  
+  > 가장 열심히 파고 있는 현재형 프로젝트 / My current main focus 🏃‍♀️
   - AI-DLC 개발방법론 적용  
-  - Flutter App  
-  > 가장 열심히 파고 있는 현재형 프로젝트 / My current main focus 🏃‍♀️  
-
+  - Flutter App
+  - 🔒 상용화를 염두에 두고 비공개로 진행 중입니다. (Private due to commercialization plan)
+  
 - [**toy-5**](https://github.com/neisii/toy-5)  
-  _AI-DLC 개발방법론 + Playwright 자동화를 지향하는 토이 프로젝트 / Toy project exploring AI-DLC methodology and Playwright-driven automation_  
+  _AI-DLC 개발 방법론을 적용한 자동화 지향 토이 프로젝트 / AI-driven automation project applying the AI-DLC development methodology_  
+  > 다양한 앱을 통해 개발 사이클과 자동화를 실험하는 실험실 / A small lab for testing development cycles and automation  
+  - 구성: **Todo App**, **Weather App**, **Shopping App**, **Auth Form**, **Chat App**  
+  - **Weather App**은 _GitHub Pages(프론트엔드)_ + _Cloudflare Workers(백엔드)_ 로 운영 중  
+  - **AI 분석**은 _ChatGPT API_ 기반으로 구현  
+  - **테스트 및 자동화**: _Playwright_ 기반 테스트 시나리오 작성 및 실행
 
 - [**Noisense**](https://github.com/neisii/noisense)  
   _서울 소음 시각화 프로젝트 (2025) / Seoul noise-map visualization_  
