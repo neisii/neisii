@@ -15,22 +15,47 @@
 
 ---
 
-## 🚀 Featured Projects  
+## 🚀 Featured Projects    
 
 - [**gobucket**](https://github.com/neisii)  
   _AI가 장기 목표(버킷리스트)를 실행 가능한 단계로 분해하고, 지도 기반으로 일일 동선을 최적화해 실제 달성을 돕는 프로젝트 / AI-driven assistant that breaks down long-term goals into actionable steps and optimizes daily routes based on maps_  
-  > 가장 열심히 파고 있는 현재형 프로젝트 / My current main focus 🏃‍♀️
+  > 가장 열심히 파고 있는 현재형 프로젝트 / My current main focus 🏃‍♀️  
   - AI-DLC 개발방법론 적용  
-  - Flutter App
+  - Flutter App  
   - 🔒 상용화를 염두에 두고 비공개로 진행 중입니다. (Private due to commercialization plan)
-  
+
+- [**Realtalk**](https://github.com/neisii/realtalk-project-frontend)  
+  _실시간 토론 플랫폼 / Real-time debate platform_  
+  > 웹과 모바일을 모두 지원하며, 사용자는 **발언자** 또는 **청중**으로 참여할 수 있음 / Supports both web and mobile; users can join as **speakers** or **listeners**  
+  - 실시간 **음성 토론** 및 **채팅 토론** 기능 제공  
+  - **프론트엔드**: Figma Make로 직접 디자인 및 구현  
+  - **백엔드**: WebSocket 기반 실시간 통신 (API 연동은 팀원이 담당)  
+  - NAS 서버에서 기동하여 실제 외부 사용자와 **유저 테스트 완료**  
+  <details>
+    <summary>🎥 시연 및 테스트 영상 보기</summary>
+
+    - [유저 테스트 (4배속)](https://youtu.be/QYrD7IPzONw?si=uumYSrAZl2O50Qsh)  
+    - [k6 부하 테스트 (1분)](https://youtu.be/6iuTCMlq3Ms?si=o8ysW97qhcnIY4F5)  
+    - [토론 시연 #1: 치킨무 논쟁](https://youtu.be/TfjHfa0catY?si=Bx2iDg1wmOrEb8oo)  
+    - [토론 시연 #2: 귀신 실존 여부](https://youtu.be/6ZUNARdBXfs?si=X-wvk13eJappKh-s)
+  </details>
+
 - [**toy-5**](https://github.com/neisii/toy-5)  
   _AI-DLC 개발 방법론을 적용한 자동화 지향 토이 프로젝트 / AI-driven automation project applying the AI-DLC development methodology_  
   > 다양한 앱을 통해 개발 사이클과 자동화를 실험하는 실험실 / A small lab for testing development cycles and automation  
   - 구성: **Todo App**, **Weather App**, **Shopping App**, **Auth Form**, **Chat App**  
   - **Weather App**은 _GitHub Pages(프론트엔드)_ + _Cloudflare Workers(백엔드)_ 로 운영 중  
   - **AI 분석**은 _ChatGPT API_ 기반으로 구현  
-  - **테스트 및 자동화**: _Playwright_ 기반 테스트 시나리오 작성 및 실행
+  - **테스트 및 자동화**: _Playwright_ 기반 테스트 시나리오 작성 및 실행  
+
+- [**chatgpt-cli**](https://github.com/neisii/chatgpt-cli)  
+  _ChatGPT CLI (웹 느려서 직접 제작) / CLI version of ChatGPT_  
+  - Features: 대화 저장·불러오기, 터미널 기반 인터랙션 지원  
+  - Motto: “빠른 AI는 스스로 만든다 / If it’s slow, build it yourself.”  
+
+- [**bio-biscuit**](https://github.com/neisii/bio-biscuit)  
+  _MBTI 스타일 GitHub bio 추천 앱 / MBTI-style bio generator_  
+  - Flutter 리팩토링 진행 중 / now refactoring into Flutter  
 
 - [**Noisense**](https://github.com/neisii/noisense)  
   _서울 소음 시각화 프로젝트 (2025) / Seoul noise-map visualization_  
@@ -38,14 +63,6 @@
   - Map logic: zoom 레벨 전환, 소음 데이터 색상화, 커서 이벤트 처리  
   - 프로젝트는 아쉬움이 남았지만, 제 작업은 경험치 +10 🙃 / project left some regrets, but my part = XP +10  
 
-- [**bio-biscuit**](https://github.com/neisii/bio-biscuit)  
-  _MBTI 스타일 GitHub bio 추천 앱 / MBTI-style bio generator_  
-  - Flutter 리팩토링 진행 중 / now refactoring into Flutter  
-
-- [**chatgpt-cli**](https://github.com/neisii/chatgpt-cli)  
-  _ChatGPT CLI (웹 느려서 직접 제작) / CLI version of ChatGPT_  
-  - Features: 대화 저장·불러오기, 터미널 기반 인터랙션 지원  
-  - Motto: “빠른 AI는 스스로 만든다 / If it’s slow, build it yourself.”  
 
 ---
 
