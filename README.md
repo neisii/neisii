@@ -17,6 +17,16 @@
 
 ## 🚀 Featured Projects    
 
+- [**status-relay**](https://github.com/neisii/status-relay)  
+  _PRD 기반으로 AI와 협업하여 구현한 macOS 트레이 모니터링 앱 / macOS tray monitoring app built via PRD-driven AI-assisted development_  
+  > Claude 장애 상황에서 Antigravity + Gemini 3 Pro(High) 조합으로 빠르게 프로토타이핑 및 안정화한 프로젝트 / Built under real constraint using AI-assisted IDE + LLM workflow  
+  - **PRD → 구현 흐름**: ChatGPT로 작성한 PRD 기반으로 코드 생성  
+  - **AI 협업 개발**: 구조 생성 및 버그 수정은 Gemini, 검증 및 일부 수정은 직접 수행  
+  - **Tauri + Rust 기반** 트레이 앱 구현 (경량 + 네이티브 성능)  
+  - **Status polling + 상태 변경 감지(diff)** 아키텍처 설계  
+  - 서비스별 **adapter 구조**로 Render / Replit 등 확장 가능  
+  - macOS Notification + Tray 상태 시각화 (🟢🟡🔴)
+
 - [**gobucket**](https://github.com/neisii)  
   _AI가 장기 목표(버킷리스트)를 실행 가능한 단계로 분해하고, 지도 기반으로 일일 동선을 최적화해 실제 달성을 돕는 프로젝트 / AI-driven assistant that breaks down long-term goals into actionable steps and optimizes daily routes based on maps_  
   > 가장 열심히 파고 있는 현재형 프로젝트 / My current main focus 🏃‍♀️  
