@@ -1,4 +1,5 @@
-# Goraeng — Backend Engineer | Spec-driven Builder | Systems & AI Research
+# 고랭(Goraeng)
+Backend Engineer · Spec-driven Builder · Systems & AI Research
 
 > I design and build systems from specs, and validate them through experiments and AI-driven automation.
 
@@ -89,4 +90,3 @@ Turning ambiguous real-world conditions into executable systems.
 ## 📊 Stats
 ![Stats](./profile/stats.svg)
 ![Top Languages](./profile/top-langs.svg)
-![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
