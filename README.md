@@ -71,7 +71,7 @@ Weather-based cycling outfit recommendation system
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vue&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Basic Rust](https://img.shields.io/badge/Rust-000000?style=flatlogo=rust&logoColor=white)
+![BasicRust](https://img.shields.io/badge/BasicRust-000000?style=flat&logo=rust&logoColor=white)
 
 ---
 
