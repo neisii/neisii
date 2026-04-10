@@ -108,4 +108,6 @@
 ---
  
 ## 📊 Stats
-![Goraeng's GitHub stats](https://github-readme-stats.vercel.app/api?username=neisii&show_icons=true&theme=tokyonight)
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
