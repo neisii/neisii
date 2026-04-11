@@ -1,4 +1,4 @@
-# 고랭(Goreang)
+# 고랭(GORAENG)
 Backend Engineer · Spec-driven Builder · Systems & AI Research
 
 > I design and build systems from specs, and validate them through experiments and AI-driven automation.
