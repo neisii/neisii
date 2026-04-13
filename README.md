@@ -42,7 +42,7 @@ Spark vs Logstash comparison on Dockerized HDFS
 #### LLM Learning Progression System (WIP)
 Multi-stage LLM capability framework
 - [RAG over personal codebase (Spring AI + PgVector)](https://github.com/neisii/personal-rag)
-- [Tool-using automation agents (CLI / function calling)](https://github.com/neisii/tool-aide)
+- [Tool-using automation agents (CLI / function calling)](https://github.com/neisii/action-agent)
 - Multi-agent orchestration (LangGraph-style)
 - Recursive self-improving memory system
 
