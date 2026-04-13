@@ -43,7 +43,7 @@ Spark vs Logstash comparison on Dockerized HDFS
 Multi-stage LLM capability framework
 - [RAG over personal codebase (Spring AI + PgVector)](https://github.com/neisii/personal-rag)
 - [Tool-using automation agents (CLI / function calling)](https://github.com/neisii/action-agent)
-- Multi-agent orchestration (LangGraph-style)
+- [Multi-agent orchestration (LangGraph-style)](https://github.com/neisii/multi-agent-debate)
 - Recursive self-improving memory system
 
 ---
