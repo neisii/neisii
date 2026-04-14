@@ -20,7 +20,7 @@ Backend Engineer · Spec-driven Builder · Systems & AI Research
 ### System Engineering
 
 #### [status-relay](https://github.com/neisii/status-relay)
-PRD-driven macOS system monitor
+PRD-driven macOS and windows system monitor
 - AI-assisted development (PRD → implementation)
 - Rust + Tauri desktop architecture
 - State diff + notification pipeline
@@ -44,7 +44,7 @@ Multi-stage LLM capability framework
 - [RAG over personal codebase (Spring AI + PgVector)](https://github.com/neisii/personal-rag)
 - [Tool-using automation agents (CLI / function calling)](https://github.com/neisii/action-agent)
 - [Multi-agent orchestration (LangGraph-style)](https://github.com/neisii/multi-agent-debate)
-- Recursive self-improving memory system
+- [Recursive self-improving memory system](https://github.com/neisii/self-reflection-rag)
 
 ---
 
