@@ -27,16 +27,6 @@ PRD-driven macOS and windows system monitor
 
 ---
 
-### Data / Distributed Systems
-
-#### Ad-Tech Log Analysis PoC (WIP)
-Spark vs Logstash comparison on Dockerized HDFS
-- Large-scale log ingestion & processing evaluation
-- Batch vs streaming trade-off analysis
-- Reproducible distributed data pipeline environment
-
----
-
 ### AI / Agent Systems
 
 #### LLM Learning Progression System
