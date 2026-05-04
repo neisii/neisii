@@ -50,7 +50,7 @@ Multi-stage LLM capability framework
 
 ### Applied Decision Systems
 
-#### [cycling-adviser](https://github.com/neisii/cycling-adviser)
+#### [cycling-adviser](https://github.com/neisii/cycling-adviser) [(Backend)](https://github.com/neisii/weather-proxy)
 Weather-based cycling outfit recommendation system
 - Environmental condition → action decision modeling (weather → clothing)
 - Rule-based + data-driven recommendation engine
