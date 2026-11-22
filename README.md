@@ -15,6 +15,24 @@ Backend Engineer · Spec-driven Builder · Systems & AI Research
 
 ---
 
+## 📝 From the blog
+
+[neisii.github.io](https://neisii.github.io/) — 글과 프로젝트 기록
+
+<!-- BLOG-CARDS:START -->
+<p>
+<a href="https://neisii.github.io/projects/harness-naroo/"><img src="./profile/blog/harness-naroo.svg" width="48%" alt="HARNESS NAROO — AI 에이전트의 결과가 전체와 맞물리는지 확인하기"></a>
+<a href="https://neisii.github.io/projects/marknaroo/"><img src="./profile/blog/marknaroo.svg" width="48%" alt="MARKNAROO — 마크다운을 바로 읽는 뷰어"></a>
+</p>
+
+최근 글
+
+- [나라는 사람에 대하여](https://neisii.github.io/posts/about-me/) <sub>2026-11-08</sub>
+- [실무에서 바로 쓰는 Git: 네 가지 작업 흐름 가이드](https://neisii.github.io/posts/git-practical-guide/) <sub>2026-11-05</sub>
+<!-- BLOG-CARDS:END -->
+
+---
+
 ## 🚀 Featured work
 
 ### System Engineering

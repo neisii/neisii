@@ -1,0 +1,30 @@
+name: Update blog cards
+
+# 블로그(https://neisii.github.io/projects.json)를 읽어 프로젝트 카드 SVG와 README의 블로그 블록을 다시 만든다.
+# 바뀐 것이 있을 때만 커밋한다. 통계 카드(grs.yml, 0시)와 겹치지 않게 0시 30분(UTC)에 돈다.
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate blog cards
+        run: python3 scripts/blog_cards.py --slugs harness-naroo,marknaroo --out profile/blog --readme README.md
+
+      - name: Commit if changed
+        run: |
+          # 자동화가 만든 커밋이라 github-actions[bot] 이름으로 남긴다(이 작업 환경 안에서만 적용).
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/blog README.md
+          if git diff --cached --quiet; then echo "바뀐 것 없음"; exit 0; fi
+          git commit -m "Update blog cards"
+          git push
