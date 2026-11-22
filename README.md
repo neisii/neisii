@@ -29,7 +29,6 @@ Backend Engineer · Spec-driven Builder · Systems & AI Research
 
 - [나라는 사람에 대하여](https://neisii.github.io/posts/about-me/) <sub>2026-11-08</sub>
 - [실무에서 바로 쓰는 Git: 네 가지 작업 흐름 가이드](https://neisii.github.io/posts/git-practical-guide/) <sub>2026-11-05</sub>
-- [Astroxx 블로그 시작하기](https://neisii.github.io/posts/hello-zenn/) <sub>2025-07-30</sub>
 <!-- BLOG-CARDS:END -->
 
 ---
