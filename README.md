@@ -18,7 +18,7 @@ goraeng(고랭) · @neisii<br>
 
 ---
 
-## 📝 From the blog
+## 📝 블로그
 
 [neisii.github.io](https://neisii.github.io/) — 글과 프로젝트 기록
 
