@@ -1,18 +1,20 @@
 # Baek Ga-hui (백가희)
 goraeng(고랭) · @neisii<br>
-Backend Engineer · Spec-driven Builder · Systems & AI Research
+백엔드 엔지니어 9년 · AI-DLC
 
-> I design and build systems from specs, and validate them through experiments and AI-driven automation.
+> 인프라를 늘리기보다 정해진 한계 안에서 병목을 찾습니다.<br>
+> 같은 방식으로 AI 세션이 함께 일하는 체계를 세웠습니다.
+
+[블로그](https://neisii.github.io/) · [AI-DLC 실무 사례](https://neisii.github.io/ai-dlc-si-portfolio/) · [이메일](mailto:neisii@outlook.com)
 
 ---
 
-## 🧭 Core focus
+## 🧭 핵심 역량
 
-- Spec-driven development (reduce ambiguity → executable systems)
-- Hypothesis-driven experimentation (validate before scaling)
-- AI agent systems & automation pipelines
-- Distributed systems & data processing
-- Real-world decision systems (environment → action modeling)
+- **제약 안 성능 최적화** — 오토 스케일링 없는 베어메탈 환경에서 서킷 브레이커·헬스체크 자동화·포트 그룹 무중단 배포로 트래픽 피크에 대응
+- **레거시 현대화** — 행정안전부 하모니 시스템 No-ActiveX 대응, Pure JS·HTML5 File API로 웹 표준 전환
+- **AI-DLC** — 규칙·스킬·도구로 여러 AI 세션을 운영하고, 결과가 시스템 전체와 맞는지 확인
+- **서버리스 멀티 소스 집계** — Cloudflare Workers에서 세 provider를 병렬 호출해 가중 평균으로 집계, 장애·이상값이면 가중치를 다시 나눔
 
 ---
 
@@ -34,78 +36,69 @@ Backend Engineer · Spec-driven Builder · Systems & AI Research
 
 ---
 
-## 🚀 Featured work
+## 🚀 대표 작업
 
-### System Engineering
+### AI-DLC
 
-#### [status-relay](https://github.com/neisii/status-relay)
-PRD-driven macOS and windows system monitor
-- AI-assisted development (PRD → implementation)
-- Rust + Tauri desktop architecture
-- State diff + notification pipeline
+- [AI-DLC 실무 사례](https://neisii.github.io/ai-dlc-si-portfolio/) — 준공공 커머스 차세대 SI(2026.07–10). 역할 세션 7개와 규칙·스킬·도구 체계로 담당 34화면을 일정보다 한 달 앞서 구현
+- [git-deploy-extractor](https://github.com/neisii/git-deploy-extractor) — 커밋 이력에서 배포 대상 파일을 뽑아 망 분리 환경용 배포 묶음을 만드는 데스크톱 도구. 프로젝트 팀에서 사용(v0.9.1)
+- [gate3-trial](https://github.com/neisii/gate3-trial) — 공개판 하네스 출시 전 시험. 게이트웨이 세션 하나가 실무자 세션들에게 작업을 나눠 맡긴 진행 기록
+- [claude-status-board](https://github.com/neisii/claude-status-board) · [server-status-board](https://github.com/neisii/server-status-board) — 터미널에 띄워 두는 Claude Code 세션 현황판과 서버 구동 현황판
 
----
+### 개인 프로젝트
 
-### AI / Agent Systems
+- [cycling-adviser](https://github.com/neisii/cycling-adviser) ([weather-proxy](https://github.com/neisii/weather-proxy)) — 국내 8개 도시의 라이딩 적합도 점수(0–100)와 복장 추천. 날씨는 Cloudflare Workers 프록시가 세 provider를 가중 평균으로 집계
+- [status-relay](https://github.com/neisii/status-relay) — Claude·Cloudflare 같은 서비스의 Statuspage 상태를 보는 macOS·Windows 트레이 앱(Rust + Tauri)
 
-#### LLM Learning Progression System
-Multi-stage LLM capability framework
-- [RAG over personal codebase (Spring AI + PgVector)](https://github.com/neisii/personal-rag)
-- [Tool-using automation agents (CLI / function calling)](https://github.com/neisii/action-agent)
-- [Multi-agent orchestration (LangGraph-style)](https://github.com/neisii/multi-agent-debate)
-- [Recursive self-improving memory system](https://github.com/neisii/self-reflection-rag)
+### 학습
+
+- Spring AI 기반 RAG 학습 Phase 1–4 — [personal-rag](https://github.com/neisii/personal-rag)(내 코드베이스 검색, PgVector) · [action-agent](https://github.com/neisii/action-agent)(도구 호출) · [multi-agent-debate](https://github.com/neisii/multi-agent-debate)(다중 에이전트) · [self-reflection-rag](https://github.com/neisii/self-reflection-rag)(자기 성찰 메모리)
 
 ---
 
-### Applied Decision Systems
+## 🛠 기술
 
-#### [cycling-adviser](https://github.com/neisii/cycling-adviser) [(Backend)](https://github.com/neisii/weather-proxy)
-Weather-based cycling outfit recommendation system
-- Environmental condition → action decision modeling (weather → clothing)
-- Rule-based + data-driven recommendation engine
-- Real-time condition handling (temperature, wind, precipitation)
-- Lightweight decision support system for cyclists
-
----
-
-## 🛠 Tech snapshot
-
-### Backend & Core
+**Language**  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 
-### Infra & Platform
+**Framework / Runtime**  
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat&logo=hibernate&logoColor=white)
+![MyBatis](https://img.shields.io/badge/MyBatis-B22222?style=flat)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat&logo=cloudflareworkers&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vuedotjs&logoColor=white)
+
+**Data / Infra**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
+![Firestore](https://img.shields.io/badge/Firestore-FFCA28?style=flat&logo=firebase&logoColor=black)
+
+**Ops / Tooling**  
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-
-### Frontend & App
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vue&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-
-### Secondary Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=Go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Cloudflare Pages](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat&logo=cloudflarepages&logoColor=white)
+![k6](https://img.shields.io/badge/k6-7D64FF?style=flat&logo=k6&logoColor=white)
+![QGIS](https://img.shields.io/badge/QGIS-589632?style=flat&logo=qgis&logoColor=white)
+![Scouter](https://img.shields.io/badge/Scouter-555555?style=flat)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=claude&logoColor=white)
+![AWS Kiro](https://img.shields.io/badge/AWS_Kiro-232F3E?style=flat)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat)
 
 ---
 
-## 🌱 Current direction
-
-AI agent systems · Data pipeline engineering · Automation-first backend design · Decision systems
-
----
-
-## ✳️ Signal
-
-Turning ambiguous real-world conditions into executable systems.
-
----
- 
 ## 📊 Stats
 ![Stats](./profile/stats.svg)
 ![Top Languages](./profile/top-langs.svg)
