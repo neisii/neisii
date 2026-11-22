@@ -49,14 +49,15 @@ goraeng(고랭) · @neisii<br>
 
 ### 개인 프로젝트
 
-- [cycling-adviser](https://github.com/neisii/cycling-adviser) ([weather-proxy](https://github.com/neisii/weather-proxy)) — 국내 8개 도시의 라이딩 적합도 점수(0–100)와 복장 추천. 날씨는 Cloudflare Workers 프록시가 세 provider를 가중 평균으로 집계
+- [cycling-adviser](https://github.com/neisii/cycling-adviser) ([weather-proxy](https://github.com/neisii/weather-proxy)) — 국내 8개 도시의 라이딩 적합도 점수(0–100)와 복장 추천. 날씨는 Cloudflare Workers 프록시가 세 provider를 가중 평균으로 집계. 다음 실험(모아 둔 날씨 데이터와 기상청 데이터로 가중치 조정)을 앞두고 잠시 쉬는 중
 
 ---
 
 ## 🌱 스킬업 기록
 
-배운 순서대로 적었습니다.
+AI로 얻고 싶은 것은 조금이라도 제대로 이해하고, 내 방식을 만들어 가는 것입니다. 배운 순서대로 적었습니다.
 
+- **2025.11 명세 주도 개발 겪어 보기** — Kiroween 해커톤에서 AWS Kiro로 [sit-or-live](https://github.com/neisii/sit-or-live-rebuild)를 만듦. 앱을 세 번 엎으며 "명세만 잘 쓰면 된다"는 생각이 깨졌고, AI가 기대를 정확히 파악하게 하려면 무엇이 더 필요한지가 이후의 질문이 됨
 - **2026.04 개념 익히기** — Spring AI로 RAG와 에이전트를 네 단계로 직접 만들며 용어를 익힘<br>
   [personal-rag](https://github.com/neisii/personal-rag)(내 코드베이스 검색) → [action-agent](https://github.com/neisii/action-agent)(도구 호출) → [multi-agent-debate](https://github.com/neisii/multi-agent-debate)(PM·Dev·QA 토론으로 검증) → [self-reflection-rag](https://github.com/neisii/self-reflection-rag)(회고를 기억하는 에이전트)
 - **2026.06–07 내 지식에 써 보기** — [knowledge-reuse-platform](https://github.com/neisii/knowledge-reuse-platform): Obsidian 노트를 하이브리드 검색으로 찾고, 옮겨 온 글은 빼고 내가 쓴 글에서만 답하게 함. 품질을 다듬다 멈춘 미완성
