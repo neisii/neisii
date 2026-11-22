@@ -42,13 +42,13 @@ goraeng(고랭) · @neisii<br>
 
 - [AI-DLC 실무 사례](https://neisii.github.io/ai-dlc-si-portfolio/) — 준공공 커머스 차세대 SI(2026.07–10). 역할 세션 7개와 규칙·스킬·도구 체계로 담당 34화면을 일정보다 한 달 앞서 구현
 - [git-deploy-extractor](https://github.com/neisii/git-deploy-extractor) — 커밋 이력에서 배포 대상 파일을 뽑아 망 분리 환경용 배포 묶음을 만드는 데스크톱 도구. 프로젝트 팀에서 사용(v0.9.1)
+- [ai-development-orchestrator](https://github.com/neisii/ai-development-orchestrator) — 여러 AI 에이전트의 대화를 사람이 승인·기록하는 오케스트레이터. Claude Code 기본 기능이 나오자 멈추고 차이를 비교했고, 그 통제 방식이 하네스 규칙이 됨
 - [gate3-trial](https://github.com/neisii/gate3-trial) — 공개판 하네스 출시 전 시험. 게이트웨이 세션 하나가 실무자 세션들에게 작업을 나눠 맡긴 진행 기록
 - [claude-status-board](https://github.com/neisii/claude-status-board) · [server-status-board](https://github.com/neisii/server-status-board) — 터미널에 띄워 두는 Claude Code 세션 현황판과 서버 구동 현황판
 
 ### 개인 프로젝트
 
 - [cycling-adviser](https://github.com/neisii/cycling-adviser) ([weather-proxy](https://github.com/neisii/weather-proxy)) — 국내 8개 도시의 라이딩 적합도 점수(0–100)와 복장 추천. 날씨는 Cloudflare Workers 프록시가 세 provider를 가중 평균으로 집계
-- [status-relay](https://github.com/neisii/status-relay) — Claude·Cloudflare 같은 서비스의 Statuspage 상태를 보는 macOS·Windows 트레이 앱(Rust + Tauri)
 
 ### 학습
 
