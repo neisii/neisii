@@ -1,4 +1,5 @@
-# 고랭(GORAENG)
+# Baek Ga-hui (백가희)
+goraeng(고랭) · @neisii<br>
 Backend Engineer · Spec-driven Builder · Systems & AI Research
 
 > I design and build systems from specs, and validate them through experiments and AI-driven automation.
